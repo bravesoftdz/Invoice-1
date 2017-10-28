@@ -111,6 +111,7 @@ begin
  if usd1.Show=0 then
  begin
   ADOTable2.First;
+  ADOTable2.First;
   while not(ADOTable2.eof) do
    ADOTable2.Delete;
  end;   
